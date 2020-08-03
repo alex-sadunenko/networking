@@ -14,6 +14,12 @@
 		63A6AF1D24D578B5004A3A15 /* Networking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63A6AF1B24D578B5004A3A15 /* Networking.xcdatamodeld */; };
 		63A6AF1F24D578B9004A3A15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A6AF1E24D578B9004A3A15 /* Assets.xcassets */; };
 		63A6AF2224D578B9004A3A15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A6AF2024D578B9004A3A15 /* LaunchScreen.storyboard */; };
+		63A6AF2A24D58EAB004A3A15 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A6AF2924D58EAB004A3A15 /* StartViewController.swift */; };
+		63A6AF2C24D5A342004A3A15 /* CoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A6AF2B24D5A342004A3A15 /* CoursesViewController.swift */; };
+		63A6AF2E24D5A353004A3A15 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A6AF2D24D5A353004A3A15 /* ImageViewController.swift */; };
+		63A6AF3024D5A396004A3A15 /* CoursesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A6AF2F24D5A396004A3A15 /* CoursesTableViewCell.swift */; };
+		63A6AF3224D5A3AE004A3A15 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A6AF3124D5A3AE004A3A15 /* WebViewController.swift */; };
+		63A6AF3424D5A747004A3A15 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A6AF3324D5A747004A3A15 /* Course.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		63A6AF1E24D578B9004A3A15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63A6AF2124D578B9004A3A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63A6AF2324D578B9004A3A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63A6AF2924D58EAB004A3A15 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		63A6AF2B24D5A342004A3A15 /* CoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesViewController.swift; sourceTree = "<group>"; };
+		63A6AF2D24D5A353004A3A15 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		63A6AF2F24D5A396004A3A15 /* CoursesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesTableViewCell.swift; sourceTree = "<group>"; };
+		63A6AF3124D5A3AE004A3A15 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		63A6AF3324D5A747004A3A15 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +72,13 @@
 			children = (
 				63A6AF1224D578B5004A3A15 /* AppDelegate.swift */,
 				63A6AF1424D578B5004A3A15 /* SceneDelegate.swift */,
+				63A6AF2924D58EAB004A3A15 /* StartViewController.swift */,
 				63A6AF1624D578B5004A3A15 /* ViewController.swift */,
+				63A6AF2B24D5A342004A3A15 /* CoursesViewController.swift */,
+				63A6AF3324D5A747004A3A15 /* Course.swift */,
+				63A6AF2D24D5A353004A3A15 /* ImageViewController.swift */,
+				63A6AF3124D5A3AE004A3A15 /* WebViewController.swift */,
+				63A6AF2F24D5A396004A3A15 /* CoursesTableViewCell.swift */,
 				63A6AF1824D578B5004A3A15 /* Main.storyboard */,
 				63A6AF1E24D578B9004A3A15 /* Assets.xcassets */,
 				63A6AF2024D578B9004A3A15 /* LaunchScreen.storyboard */,
@@ -141,10 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A6AF2A24D58EAB004A3A15 /* StartViewController.swift in Sources */,
+				63A6AF3224D5A3AE004A3A15 /* WebViewController.swift in Sources */,
+				63A6AF3424D5A747004A3A15 /* Course.swift in Sources */,
 				63A6AF1724D578B5004A3A15 /* ViewController.swift in Sources */,
 				63A6AF1324D578B5004A3A15 /* AppDelegate.swift in Sources */,
+				63A6AF2E24D5A353004A3A15 /* ImageViewController.swift in Sources */,
+				63A6AF3024D5A396004A3A15 /* CoursesTableViewCell.swift in Sources */,
 				63A6AF1524D578B5004A3A15 /* SceneDelegate.swift in Sources */,
 				63A6AF1D24D578B5004A3A15 /* Networking.xcdatamodeld in Sources */,
+				63A6AF2C24D5A342004A3A15 /* CoursesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
