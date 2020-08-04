@@ -12,8 +12,6 @@ class StartViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
     }
     
     
@@ -21,6 +19,7 @@ class StartViewController: UIViewController {
         
         let baseURLString = "https://jsonplaceholder.typicode.com"
         let requestString = "/posts"
+        
         guard let url = URL(string: baseURLString + requestString) else { return }
         let session = URLSession.shared
         session.dataTask(with: url) { (data, response, error) in

@@ -51,6 +51,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6335E0DB24D9A93B007AF650 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				63A6AF2924D58EAB004A3A15 /* StartViewController.swift */,
+				63A6AF2B24D5A342004A3A15 /* CoursesViewController.swift */,
+				63A6AF3124D5A3AE004A3A15 /* WebViewController.swift */,
+				63A6AF1624D578B5004A3A15 /* ViewController.swift */,
+				63A6AF2D24D5A353004A3A15 /* ImageViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		6335E0DC24D9A969007AF650 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				63A6AF3324D5A747004A3A15 /* Course.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6335E0DD24D9AA03007AF650 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				63A6AF2F24D5A396004A3A15 /* CoursesTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		63A6AF0624D578B5004A3A15 = {
 			isa = PBXGroup;
 			children = (
@@ -72,13 +100,9 @@
 			children = (
 				63A6AF1224D578B5004A3A15 /* AppDelegate.swift */,
 				63A6AF1424D578B5004A3A15 /* SceneDelegate.swift */,
-				63A6AF2924D58EAB004A3A15 /* StartViewController.swift */,
-				63A6AF1624D578B5004A3A15 /* ViewController.swift */,
-				63A6AF2B24D5A342004A3A15 /* CoursesViewController.swift */,
-				63A6AF3324D5A747004A3A15 /* Course.swift */,
-				63A6AF2D24D5A353004A3A15 /* ImageViewController.swift */,
-				63A6AF3124D5A3AE004A3A15 /* WebViewController.swift */,
-				63A6AF2F24D5A396004A3A15 /* CoursesTableViewCell.swift */,
+				6335E0DB24D9A93B007AF650 /* VC */,
+				6335E0DC24D9A969007AF650 /* Model */,
+				6335E0DD24D9AA03007AF650 /* Cell */,
 				63A6AF1824D578B5004A3A15 /* Main.storyboard */,
 				63A6AF1E24D578B9004A3A15 /* Assets.xcassets */,
 				63A6AF2024D578B9004A3A15 /* LaunchScreen.storyboard */,
